@@ -1,13 +1,31 @@
-.svg-logo{
+.svg-logo {
     fill: #ffc2de;
 }
 
-nav{
+nav {
     background: #0000cb;
-}
 
-li a{
-    color: #ffc2de;
-    font-size: 16px;
-    margin-right: 5px;
+    & li a {
+        color: #ffc2de;
+        font-size: 16px;
+    }
+
+    & .temp {
+        color: #ffc2de;
+    }
+
+    & .cidade {
+        color: #ffc2de;
+    }
+
+    & .busca {
+        span {
+            color: #ffc2de;
+        }
+    }
+
+    & .meio-nav{
+        width: 78%;
+    }
+
 }
